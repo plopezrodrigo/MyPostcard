@@ -1,0 +1,65 @@
+body {
+	background: black;
+}
+.postcard {
+	width: 400px;
+	height: 280px;
+	background: white;
+	margin: auto;
+	margin-top: 0%;
+}
+.postcard-header {
+	display: flex;
+	width: 100%;
+	height: 70px;
+}
+h1 {
+	margin: 0;
+	width: 100%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left {
+	padding: 10px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	width: 300px;
+	margin-left: 1px;
+	font-size: medium;
+}
+.body-right {
+	padding: x;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: small;
+	text-decoration: grey;
+	height: 100px;
+}
+input {
+	border: none;
+	border-bottom: grey solid 1px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: grey;
+	padding: x;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: medium;
+	height: auto;
+	border: none;
+	border-bottom: 1px solid black;
+}
